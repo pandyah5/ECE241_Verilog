@@ -1,3 +1,5 @@
+// Sync modules
+
 module pos_edge_sync_active_high(d, clock, reset, q);
     input d, clock, reset;
     output reg q;
