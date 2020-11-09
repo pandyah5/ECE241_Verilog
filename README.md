@@ -9,7 +9,7 @@ The code was validated using Intel's Quartus Prime Software.
 
 ### RS-Latch:
 
-![RS-Latch](/schematics/RS Latch.PNG)
+![RS-Latch](/schematics/rs-latch.PNG)
 
 ### Positive Edge D-Flip Flop:
 
@@ -25,4 +25,4 @@ The code was validated using Intel's Quartus Prime Software.
 
 ### Four Bit Shift Registers:
 
-![Four Bit Shift Registers](/shift_registers.PNG)
+![Four Bit Shift Registers](/schematics/shift_registers.PNG)
