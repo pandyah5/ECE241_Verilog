@@ -9,7 +9,7 @@ The code was validated using Intel's Quartus Prime Software.
 
 ### RS-Latch:
 
-![RS-Latch](/schematics/rs-latch.PNG)
+![RS-Latch](/schematics/rs_latch.PNG)
 
 ### Positive Edge D-Flip Flop:
 
