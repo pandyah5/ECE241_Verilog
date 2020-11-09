@@ -18,7 +18,7 @@ module eight_bit_register(d, enable, clock, resetp, q); // Active high reset and
     always@(posedge clock, posedge resetp)
         begin
             if (resetp == 1)
-                q <= 8'b00000000;
+                q <= 8'b00000000; // Binary 8 bit
             else if (enable == 1)
                 q <= d;
         end
