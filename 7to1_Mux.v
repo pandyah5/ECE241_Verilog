@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 `default_nettype none
 
-// DE1_SoC board needs the below main module module
+// DE1_SoC board needs the below main module
 
 endmodule //
 module main	(

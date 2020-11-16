@@ -30,48 +30,21 @@ module top(SW, LEDR);
 	input [9:0] SW;
 	output [9:0] LEDR;
 
-	register_4_bit u1 (SW[3:0], SW[9], SW[8], SW[7], LEDR[3:0]);
-	// You can try out the others too by changing the line above :)
+	d_flipflop_enable u1 (SW[0], SW[9], SW[8], SW[1], LEDR[0]);
 
 endmodule
 
-// Registers
+// D Flip Flop with enable
 
-module register_1_bit(d, enable, clock, resetn, q); // Active low reset and Synchronous
-    input d, enable, clock, resetn;
+module d_flipflop_enable(d, clock, enable, resetn, q);
+    input d, clock, resetn, enable;
     output reg q;
-    always@(posedge clock)
-        begin
-            if (!resetn)
-                q <= 0;
-            else if (enable == 1)
-                q <= d;
-        end
-endmodule
 
-module register_4_bit (d, clock, resetn, enable, q); // Synchronous - Active low
-    input[3:0] d;
-    input clock, enable, resetn;
-    output reg [3:0] q;
-
-    always@(posedge clock)
+    always@(negedge clock)
         begin
             if (resetn == 0)
                 q <= 0;
             else if (enable == 1)
-                q <= d;
-        end
-endmodule
-
-module register_8_bit(d, enable, clock, resetp, q); // Active high reset and Asynchronous
-    input enable, clock, resetp;
-    input[7:0] d;
-    output reg[7:0] q;
-    always@(posedge clock, posedge resetp)
-        begin
-            if (resetp == 1)
-                q <= 8'b00000000; // Binary 8 bit
-            else if (enable)
                 q <= d;
         end
 endmodule

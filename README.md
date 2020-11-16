@@ -11,11 +11,9 @@ Contents:
 
 * Gated-D-Latch
 
-* D-flipflop
+* D-flipflops (8 types without enable)
 
-* DFF-posedge
-
-* DFF-negedge
+* D-flipflop (with enable)
 
 * Register - 1 bit
 
