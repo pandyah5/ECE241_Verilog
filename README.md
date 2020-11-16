@@ -3,9 +3,17 @@ This repo contains the Verilog HDL modules I implemented in my ECE 241 course al
 
 The code was validated using Intel's Quartus Prime Software.
 
-Contents:
+**Contents:**
 
-* 7 to 1 mux
+* 2-to-1 mux
+
+* 4-to-1 mux
+
+* 4 bit 2-to-1 mux
+
+* 7-to-1 mux
+
+* Full adder
 
 * Ripple carry adder
 
@@ -16,6 +24,8 @@ Contents:
 * D-flipflop (with enable)
 
 * Register - 1 bit
+
+* Register - 4 bit
 
 * Register - 8 bit
 
