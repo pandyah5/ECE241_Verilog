@@ -1,7 +1,12 @@
 # ECE241_Verilog
+
+![meme](/schematics/meme.jpg)
+
+Lmao let's be serious now!
+
 This repo contains the Verilog HDL modules I implemented in my ECE 241 course along with their logisim schematics and ModelSim simulations.
 
-The code was validated using Intel's Quartus Prime Software.
+The code was validated using **Intel's Quartus Prime Software**.
 
 **Contents:**
 
