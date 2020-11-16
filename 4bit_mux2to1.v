@@ -22,27 +22,27 @@ module main	(
 
 endmodule
 
-	//Write code in here!
+//Write code in here!
 
-	module mux2to1(a, b, Y, S);
-		// Declaring inputs and outputs
-		input a, b;
-		input S;
-		output Y;
+module mux2to1(a, b, Y, S);
+	// Declaring inputs and outputs
+	input a, b;
+	input S;
+	output Y;
 
-		// assign Y = S?b:a;
-		assign Y = (~S & a)|(S & b);
+	// assign Y = S?b:a;
+	assign Y = (~S & a)|(S & b);
 
-	endmodule
+endmodule
 
-	module fourBit_mux2to1 (X, Y, S, Z);
-		input[3:0] X, Y;
-		input S;
-		output[3:0] Z;
+module fourBit_mux2to1 (X, Y, S, Z);
+	input[3:0] X, Y;
+	input S;
+	output[3:0] Z;
 
-		mux2to1 u1(.a(X[0]), .b(Y[0]), .Y(Z[0]), .S(S));
-		mux2to1 u2(.a(X[1]), .b(Y[1]), .Y(Z[1]), .S(S));
-		mux2to1 u3(.a(X[2]), .b(Y[2]), .Y(Z[2]), .S(S));
-		mux2to1 u4(.a(X[3]), .b(Y[3]), .Y(Z[3]), .S(S));
+	mux2to1 u1(.a(X[0]), .b(Y[0]), .Y(Z[0]), .S(S));
+	mux2to1 u2(.a(X[1]), .b(Y[1]), .Y(Z[1]), .S(S));
+	mux2to1 u3(.a(X[2]), .b(Y[2]), .Y(Z[2]), .S(S));
+	mux2to1 u4(.a(X[3]), .b(Y[3]), .Y(Z[3]), .S(S));
 
-	endmodule
+endmodule
