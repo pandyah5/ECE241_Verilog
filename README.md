@@ -52,6 +52,8 @@ The code was validated using **Intel's Quartus Prime Software**.
 
 * Address Decoder (Memory)
 
+* 110 Sequence Detector - Finite State Machine
+
 ### D-Latch:
 
 ![D-Latch](/schematics/d_latch.PNG)
@@ -79,5 +81,10 @@ The code was validated using **Intel's Quartus Prime Software**.
 ### Toggle Flip Flop (T-Flip Flop)
 
 ![T Flip Flop](/schematics/T_FlipFlop.PNG)
+
+### 110 Sequence Detector (State Diagram)
+
+![State Diagram](/Finite State Machines/110 Sequence Detector/State Diagram.PNG)
+
 
 > Disclaimer: I do not own any files in the "Supporting files directory". They are open-source files made available to us by University of Toronto and can be found at: https://github.com/UofT-HPRC/fake_fpga/releases
