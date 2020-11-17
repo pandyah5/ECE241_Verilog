@@ -71,3 +71,7 @@ The code was validated using **Intel's Quartus Prime Software**.
 ### Four Bit Shift Registers:
 
 ![Four Bit Shift Registers](/schematics/shift_registers.PNG)
+
+### Toggle Flip Flop (T-Flip Flop)
+
+![T Flip Flop](/schematics/T_FlipFlop.PNG)
