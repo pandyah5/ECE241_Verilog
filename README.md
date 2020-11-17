@@ -10,13 +10,13 @@ The code was validated using **Intel's Quartus Prime Software**.
 
 **Contents:**
 
-* 2-to-1 mux
+* 2-to-1 multiplexer (Our dear mux)
 
-* 4-to-1 mux
+* 4-to-1 multiplexer
 
-* 4 bit 2-to-1 mux
+* 4 bit 2-to-1 multiplexer
 
-* 7-to-1 mux
+* 7-to-1 multiplexer
 
 * Full adder
 
@@ -24,7 +24,7 @@ The code was validated using **Intel's Quartus Prime Software**.
 
 * 7 - Segment Hex Display
 
-* Gated-D-Latch
+* Gated D-Latch
 
 * D-flipflops (8 types without enable)
 
@@ -36,13 +36,13 @@ The code was validated using **Intel's Quartus Prime Software**.
 
 * Register - 8 bit
 
-* Register - n bit
+* Register - n bit - Parameterized
 
 * Shift Register
 
 * Shift Register - Parallel load
 
-* T - flipflop
+* Toggle - flipflop
 
 * Counter - 4 bit
 
@@ -50,7 +50,7 @@ The code was validated using **Intel's Quartus Prime Software**.
 
 * Async counter
 
-* Address Decoder
+* Address Decoder (Memory)
 
 ### D-Latch:
 
@@ -79,3 +79,5 @@ The code was validated using **Intel's Quartus Prime Software**.
 ### Toggle Flip Flop (T-Flip Flop)
 
 ![T Flip Flop](/schematics/T_FlipFlop.PNG)
+
+> Disclaimer: I do not own any files in the "Supporting files directory". They are open-source files made available to us by University of Toronto and can be found at: https://github.com/UofT-HPRC/fake_fpga/releases
