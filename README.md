@@ -22,6 +22,8 @@ The code was validated using **Intel's Quartus Prime Software**.
 
 * Ripple carry adder
 
+* 7 - Segment Hex Display
+
 * Gated-D-Latch
 
 * D-flipflops (8 types without enable)
@@ -47,6 +49,8 @@ The code was validated using **Intel's Quartus Prime Software**.
 * Updown counter - Parameterized
 
 * Async counter
+
+* Address Decoder
 
 ### D-Latch:
 
