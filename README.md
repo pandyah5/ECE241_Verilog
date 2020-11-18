@@ -8,7 +8,7 @@ This repo contains the Verilog HDL modules I implemented in my ECE 241 course al
 
 The code was validated using **Intel's Quartus Prime Software**.
 
-## How to contribute
+## How to contribute?
 
 Contributions are most welcome but please read the **_CONTRIBUTING.md_** before generating a pull request, it will prevent your pull request from being rejected and help us review it more easily.
 
@@ -60,35 +60,35 @@ Contributions are most welcome but please read the **_CONTRIBUTING.md_** before 
 
 ## Schematics
 
-### D-Latch:
+> D-Latch:
 
 ![D-Latch](/schematics/d_latch.PNG)
 
-### RS-Latch:
+> RS-Latch:
 
 ![RS-Latch](/schematics/rs_latch.PNG)
 
-### Positive Edge D-Flip Flop:
+> Positive Edge D-Flip Flop:
 
 ![Positive edge D-Flip Flop](/schematics/Pos_edge_D_flipflop.PNG)
 
-### Negative Edge D-Flip Flop:
+> Negative Edge D-Flip Flop:
 
 ![Negative edge D-Flip Flop](/schematics/Neg_edge_D_flipflop.PNG)
 
-### Eight Bit Register:
+> Eight Bit Register:
 
 ![Eight Bit Register](/schematics/eight_bit_register.PNG)
 
-### Four Bit Shift Registers:
+> Four Bit Shift Registers:
 
 ![Four Bit Shift Registers](/schematics/shift_registers.PNG)
 
-### Toggle Flip Flop (T-Flip Flop)
+> Toggle Flip Flop (T-Flip Flop)
 
 ![T Flip Flop](/schematics/T_FlipFlop.PNG)
 
-### 110 Sequence Detector (State Diagram)
+> 110 Sequence Detector (State Diagram)
 
 ![State Diagram](/Finite_State_Machines/110_Sequence_Detector/State_Diagram.PNG)
 
