@@ -4,9 +4,11 @@
 
 Lmao let's be serious now!
 
-This repo contains the Verilog HDL modules I implemented in my ECE 241 course along with their logisim schematics and ModelSim simulations.
+## What is this repo about?
 
-The code was validated using **Intel's Quartus Prime Software**.
+This repo contains verilog codes, modelsim simulations, logisim schematics and other resources for the course ECE241 taught at the University of Toronto. I made this to help the current batch of ECE 2T3 and upcoming batches because the online resources are very limited and heard to find.
+
+The code was validated using **Intel's Quartus Prime Software** using the tcl scripts (provided in the "Supporting Files" Directory.
 
 ## How to contribute?
 
