@@ -8,6 +8,8 @@ This repo contains the Verilog HDL modules I implemented in my ECE 241 course al
 
 The code was validated using **Intel's Quartus Prime Software**.
 
+**Contributions are most welcome but please read the _CONTRIBUTING.md_ before generating a pull request, it will prevent your pull request from being rejected and help us review it more easily**
+
 **Contents:**
 
 * 2-to-1 multiplexer (Our dear mux)
