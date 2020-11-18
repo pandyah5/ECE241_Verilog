@@ -6,7 +6,7 @@ Lmao let's be serious now!
 
 ## What is this repo about?
 
-This repo contains verilog codes, modelsim simulations, logisim schematics and other resources for the course ECE241 taught at the University of Toronto. I made this to help the current batch of ECE 2T3 and upcoming batches because the online resources are very limited and heard to find.
+This repo contains verilog codes, modelsim simulations, logisim schematics and other resources for the course ECE241 taught at the University of Toronto. This repo is to help the current batch of ECE 2T3 and upcoming batches of ECE 241 because the online resources are very limited and hard to find.
 
 The code was validated using **Intel's Quartus Prime Software** using the tcl scripts (provided in the "Supporting Files" Directory.
 
