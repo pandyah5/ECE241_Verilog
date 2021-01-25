@@ -95,4 +95,4 @@ Contributions are most welcome but please read the **_CONTRIBUTING.md_** before 
 ![State Diagram](/Finite_State_Machines/110_Sequence_Detector/State_Diagram.PNG)
 
 
-> Disclaimer: I do not own any files in the "Supporting files directory". They are open-source files made available to us by University of Toronto and can be found at: https://github.com/UofT-HPRC/fake_fpga/releases
+> Disclaimer: I do not own the files in the "Supporting files directory". They are open-source files made available to me by University of Toronto and can be found at: https://github.com/UofT-HPRC/fake_fpga/releases
