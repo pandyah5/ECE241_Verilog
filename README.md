@@ -1,6 +1,6 @@
 # ECE241_Verilog
 
-![meme](/schematics/verilog_meme.png)
+![meme](/schematics/verliog_meme.png)
 
 Lmao let's be serious now!
 
